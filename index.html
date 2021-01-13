@@ -4,22 +4,37 @@
         <meta charset="UTF-8">
         <meta name="vuewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/ef388d4cbd.js" crossorigin="anonymous"></script>
         <title>반응형 헤더 제작</title>
+        <script src="main.js" defer></script>
     </head>
     <body>
         <nav class="navbar">
-            <div class="navbar_logo">
+            <div class="navbar__logo">
+                <i class="fab fa-html5"></i>
+                <a href="">DreamCoding</a>
 
             </div>
 
-            <div class="navbar_menu">
+            <ul class="navbar__menu">
+                <li><a href="">home</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Weddings</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Bookings</a></li>
 
-            </div>
+            </ul>
 
-            <div class="navbar_link">
+            <ul class="navbar__icons">
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
 
-                
-            </div>
+            </ul>
+
+            <a href="#" class="navbar__toggleBtn">
+                <i class="fas fa-bars"></i>
+            </a>
+
         </nav>
     </body>
 </html>
